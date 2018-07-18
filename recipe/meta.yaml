@@ -1,12 +1,11 @@
-{% set version = "1.1.0" %}
 
 package:
   name: simpleitk
-  version: "{{version}}"
+  version: 2341a17b19
 
 source:
-  git_url: git://itk.org/SimpleITK.git
-  git_tag:  v{{version}}
+  git_url: https://github.com/blowekamp/SimpleITK
+  git_tag: 2341a17b19
 
 build:
     number: 0

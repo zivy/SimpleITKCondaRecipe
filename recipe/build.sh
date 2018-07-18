@@ -47,6 +47,7 @@ cmake \
     -D "PYTHON_INCLUDE_DIR:PATH=${PYTHON_INCLUDE_DIR}" \
     -D "PYTHON_LIBRARY_DIR:PATH=${PYTHON_LIBRARY_DIR}" \
     -D "SWIG_EXECUTABLE:FILEPATH=${PREFIX}/bin/swig" \
+    -D Module_SCIFIO:BOOL=ON \
     "${SRC_DIR}/SuperBuild"
 
 make -j ${CPU_COUNT}
